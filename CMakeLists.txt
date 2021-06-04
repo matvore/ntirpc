@@ -205,7 +205,6 @@ if (NOT BSDBASED)
   )
 endif (NOT BSDBASED)
 
-set(LIBNTIRPC_MAP "${PROJECT_BINARY_DIR}/src/libntirpc.map")
 # subst files (need add_custom_command for dependency, fyi)
 configure_file(
   "${NTIRPC_BASE_DIR}/src/libntirpc.map.in.cmake"
